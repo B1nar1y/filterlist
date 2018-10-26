@@ -1,0 +1,204 @@
+!!!!!!!!!!!!!!!!!!!!!TEXT FILTER!!!!!!!!!!!!!!!!!!!!!!!!!
+bild.de##.pos4.t5p2.portrait.hentry:has-text(/(bild-plus)|(bild plus)/i)
+gonewild.co##.gallery .gallery-display:has-text(/(cosplay)|(dildo)|(snapchat)/i)
+heavy-r.com##div.col-xxs-12.col-sm-12.col-xs-6:has-text(/(anal)|(double penetration)|(enema)|(fist)|(footjob)|(fucked in the ass)|(handjob)|(insect)|(masturbation)|(outdoor)|(piss)|(pov)|(public)|(scat)|(toy)|(train)|(worm)/i)
+heavy-r.com##div.col-sm-4.col-xs-6.col-xxs-12:has-text(/(anal)|(double penetration)|(enema)|(fist)|(footjob)|(fucked in the ass)|(handjob)|(insect)|(masturbation)|(outdoor)|(piss)|(pov)|(public)|(scat)|(toy)|(train)|(worm)/i)
+hqporner.com##.box.feature:has-text(/(anal)/i)
+newsfilter.org##div.sm-item.col.item-block-svideo.item-block:has-text(/(anal)/i)
+pornovideoshub.com##.blog .site-main > article, .archive .site-main > article, .search .site-main > article:has-text(/(alldoone)|(assfucked)|(anal)|(bondage)|(dp)|(dap)|(premium user request)|(pregnant)|(pov)|(shemale)|(strap on)|(strapon)|(manyvids)|(handjob)|(pantyhose)|(pissing)|(scat)|(Virtual Reality )|(vintage)/i)
+pornhub.com##.videoBox.videoblock.js-pop:has-text(/(arsch fick)|(arsch gefickt)|(arschloch)|(anal)|(ass fucked)|(asshole)|(fart)|(dirty feet)|(pegging)|(pov)|(nylon)|(virtual reality)|(vr)/i)
+pornbimbo.com##div.item:has-text(/(dirty feet)|(anal)|(ass stretched)|(strapon)|(sissy)|(asshole)|(nylon)/i)
+pornmd.com##div.grid li.video-info-wrapper:has-text(/(arsch fick)|(arsch gefickt)|(arschloch)|(anal)|(ass fucked)|(asshole)|(fart)|(dirty feet)|(pov)|(nylon)|(virtual reality)|(vr)/i)
+theync.com##.item-normal:has-text(/(guy)|(boy)|(thief)|(truck)|(kid)|(husband)|(behead)|(man)|(thug)|(accident)|(shot)|(hidden)|(killed)|(tram)|(train)|(massacre)/i)
+transfermarkt.de##.thread-box:has-text(/(Comunio)|(Eintrachtliche Tipprunde 2018/2019)/i)
+yourporn.sexy##.post_el_small:has-text(/(anal)|(pov)|(vr)/i)
+!youtube.com##.ytd-video-renderer.style-scope:has-text(/((Helene Fischer)).*((amazon)|(barbara)|(berlin)|(cover)|(capital bra)|(boss hoss)|(elvis)|(florian)|(frankfurt)|(hamburg)|(arnhem)|(münchen)|(ischgl)|(simmersfeld)|(kinder)|(musical)(news)|(reportage)|(russian)|(schock)|(stuttgart)|(sammlung)|(skandal)|(top hits)|(udo)|(wien))/i)
+!youtube.com##.ytd-video-renderer.style-scope:has-text(/((amazon)|(barbara)|(berlin)|(cover)|(capital bra)|(boss hoss)|(elvis)|(florian)|(frankfurt)|(hamburg)|(kelly family)|(arnhem)|(münchen)|(ischgl)|(simmersfeld)|(kinder)|(musical)(news)|(reportage)|(russian)|(schock)|(stuttgart)|(sammlung)|(skandal)|(top hits)|(udo)|(wien)).*((Helene Fischer))/i)
+!!!!!!!!!!!!!!!!!!!!!!ALLGEMEINE!!!!!!!!!!!!!!!!!!!!!!!!!
+^1x1.gif$image,important
+^abo$important
+^ad-
+^ads$important
+^adsense$important
+^ajax$other
+^ajax/bz
+^analytics$important
+^app.php
+^blank.gif
+^canvas
+^facebook
+^geocode$important
+^google-analytics$important
+^hyphenator
+^leer.gif$important
+^lightbox-blank.gif$image,important
+^mashsharer
+^matomo
+^metrics$important
+^metrika
+overlay.js|$important
+^ph-tracking$important
+^pixel$important
+^pxl$,important
+^px.gif$important
+^piwik$important
+!^referer_frame$important
+^rssfeeds$important
+^safe_image
+^serviceworker.js$script
+^service_ajax$important
+^socialshareprivacy$important
+^sw.js$important
+^sw-tools.js$important
+^service-worker.js
+^trekk$important
+^tracking$important
+^tracker$important
+^twitter^$important
+^webtrekk$important
+^webtrekkwap
+^widget
+^widgets
+!!!!!!!!!!!!!!!!!!!!!!BILD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+bild.de/module/*breakingnews.bild.js
+^1.bild.gif
+!!!!!!!!!!!!!!!!!!!!!!FACEBOOK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+^graphqlbatch
+/linkclick
+!!!!!!!!!!!!!!!!!!!!!!HEISE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+||heise.de/*.gif
+!!!!!!!!!!!!!!!!!!!!!!REDDIT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/author-tooltip.*.js
+^chat
+||redditstatic.com/moat/$important
+||redditstatic.com/_chat
+||redditstatic.com/crossposting
+||redditstatic.com/desktop2x
+!!!!!!!!!!!!!!!!!!!!!!S.TO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+$popup,domain=s.to
+!!!!!!!!!!!!!!!!!!!!!!TRANSFERMARKT!!!!!!!!!!!!!!!!!!!!!!!!!
+||transfermarkt.de^*.gif
+!!!!!!!!!!!!!!!!!!!!!!TWITCH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+||api.twitch.tv/v5/channels/*/extensions
+!!!!!!!!!!!!!!!!!!!!!!TWITTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+||twitter.com/*=ui_metrics
+^ids.json?
+!!!!!!!!!!!!!!!!!!!!!!YOUTUBE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+^annotations_module.js
+^endscreen.js
+^get_endscreen?
+^ptracking$important
+^pagead/$important
+^stats$important
+^youtubei/v1$important
+!!!!!!!!!!!!!!!!!!!!!!Porn Sites!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+||eporner.com/dash-report.php
+||pornhub.com/front/menu_livesex?$important
+||camvideos.tv/bad$important
+||camvideos.tv/cfad$important
+||camvideos.tv/cpad$important
+||camvideos.tv/sad$important
+||pornbimbo.com/?mode=async&action=js_stats&rand=*
+||pornscum.com/player/html.php
+^trade/porn.php$popup
+||eporner.com^*$script
+about:blank$popup,domain=shegotass.info
+||homegrownfreaks.net$script
+||cdn.porndish.com/wp-content/plugins/g1-socials^
+||videos.youngleak.com/ba_er.php
+||hqq.tv/player/embed_player.php$subdocument
+||s2.static.cfgr2.com/anim/index12.html$subdocument
+!!!!!!!!!!!!!!!!!!!!!!AUSNAHMEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@@||*.bigcdn.cc/pub/cid/*.mp4$media,domain=mydaddy.cc
+@@||dash*cdn.eporner.com/v8/*.mp4.urlset/manifest.mpd$xmlhttprequest,domain=www.eporner.com
+@@||cdn-*.vporn.com^$media,domain=www.vporn.com
+@@||dash*cdn.eporner.com/srv8/*,p.mp4.urlset/*.mp4$xmlhttprequest,domain=www.eporner.com
+@@||dash*cdn.eporner.com/srv8/*,p.mp4.urlset/*.m4s$xmlhttprequest,domain=www.eporner.com
+@@||*.googleusercontent.com^$media,domain=embed.camjax.tv
+@@||*.googlevideo.com/*$xmlhttprequest,domain=youtube.com
+@@||homegrownfreaks.net/player/kt_player.js
+@@||homegrownfreaks.net/js/main.min.js
+@@||homegrownfreaks.net/player/player_ads.html
+@@||instagram.*.fbcdn.net^$media,domain=www.instagram.com
+@@||instagram.com/web/friendships/*/unfollow/
+@@||*.oloadcdn.net^$media
+@@pixel$image,script,subdocument,domain=youtube.com
+@@||www.redditstatic.com/reddit.de.*.js$script,domain=www.reddit.com
+@@||www.redditstatic.com/reddit-init.de.*.js$script,domain=www.reddit.com
+@@||static-eu-cdn.eporner.com
+@@^serviceworker.js$script,domain=web.whatsapp.com
+@@||*.trafficdeposit.com/bvideo/$media,domain=yourporn.sexy
+@@||video-weaver.*.hls.ttvnw.net^$xmlhttprequest,domain=www.twitch.tv
+@@||video-edge-*.hls.ttvnw.net/v1/segment/*$xmlhttprequest,domain=www.twitch.tv
+@@||video.*.fbcdn.net^$xmlhttprequest,domain=www.facebook.com
+!!!!!!!!!!!!!!!!!!!!!!COSMETICS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+pornbimbo.com##[href="//j8inn1zektoe.com/1543233.html"]
+de.pornhub.com##ads > div:nth-of-type(1)
+de.pornhub.com##ads > div:nth-of-type(2)
+##.streamatesModelsContainer.sectionWrapper
+##[href="//zukxd6fkxqn.com/1321622.html"]
+##[href="//810f3f9dde63ae3.com/1013969.html"]
+##.jQ5xG.bR_3v
+www.youtube.com###unlimited-guide-item > .spf-link.yt-valign.yt-uix-sessionlink.guide-item > .yt-valign-container
+www.youtube.com###unlimited-guide-item > .spf-link.yt-valign.yt-uix-sessionlink.guide-item
+www.porndish.com##.g1-typography-xl.entry-content > p:nth-of-type(1)
+www.porndish.com##.entry-featured-media-main.entry-featured-media > .g1-frame > .g1-frame-inner
+www.qwant.com##.survey__popin
+www.facebook.com##._5pcr._3j6k
+streamcloud.eu##[href="//zukxd6fkxqn.com/1614700.html"]
+www.youporn.com##.promo-message > p
+www.youporn.com###network-bar
+www.instagram.com##.bR_3v
+studio47.me##[href="//zukxd6fkxqn.com/1874894.html"]
+soft-babez.cc##.n2-grab.n2-ow.n2-ss-swipe-element.n2-ss-slider-1
+www.camwhores.tv##.adv > noindex
+www.camwhores.tv##.container > .box
+de.chaturbate.com##.chat-holder
+www.heise.de##.teaser_preisvergleich_top10
+www.heise.de##div.teaser_hbs:nth-of-type(3) > p
+www.heise.de##.teaser_deal_des_tages > p
+www.golem.de###job-market
+de.xhamster.com##.wid-banner-container
+igg-games.com###n2-ss-2-placeholder > .n2-ow
+www.focus.de###local_map_lns_wrapper
+www.qwant.com##.home__snippet__extension
+||www.qwant.com/img/v4/home-banner.svg?1536140462025$image
+||nudespree.com/a/av/live.php$subdocument
+www.youtube.com##ytd-radio-renderer.ytd-item-section-renderer.style-scope
+www.focus.de##div#sidebar.lp_C-rechte-Spalte > div.tft_ads.tft_ads_area_cad1
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row1 > div.content > a.promo.signup-btn
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row1 > div.content > a.promo.signup-btn > span
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row1 > div.content > a.promo.signup-btn > span
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row2 > div.sidebar
+pornfun.com##div#tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row2 > div.sidebar > div.aside-albums
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row3 > div.sidebar > span.adv-title
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row3 > div.sidebar > div.aside-albums
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row > div.column-right
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row > div.column-center > div.view-holder > div.adsPlayerAfter
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row.row1 > div.sidebar
+pornfun.com##html > body > div.wrapper > div.main > div.container > div.row > div.spots-bottom
+de.pornhub.com##html.language-de.firefox > body.logged-in > div.wrapper > div.container > div.nf-videos > div.sectionWrapper > div.sectionTitle
+de.pornhub.com##ul#streamMateModel.videos.row-4-thumbs.streamateContent.clearfix
+www.heise.de##div#mitte_rechts.mitte_rechts
+www.heise.de##article#meldung.akwa-article > div.akwa-article__content-container > section.sidebar > footer.article-footer
+www.heise.de##aside#mitte_rechts.beitrag-rechts
+www.heise.de##div#sitemap
+www.golem.de##div#plista_widget_underArticle.clearfix
+www.golem.de##div#csi_art1
+www.golem.de##div#screen > div.g.g2
+www.golem.de##div#iqadtile3
+www.instagram.com##.lOPC8
+www.xrares.com##div#wrapper > div.alert.alert-dismissable.alert-success
+www.xrares.com##div#wrapper > div.alert.alert-dismissable.alert-success
+rargb.to###lkjc6
+de.pornhub.com##div#hd-rightColVideoPage > milktruck
+www.youtube.com##ytd-playlist-renderer.ytd-item-section-renderer.style-scope
+pornovideoshub.com###recent-comments-2
+pornovideoshub.com###recent-posts-2
+pornovideoshub.com###calendar-2
+pornovideoshub.com###meta-2
+de.pornhub.com##iframe
+de.pornhub.com##div.sectionWrapper:nth-of-type(3)
+www.reddit.com##.initialized.listing-chooser
+www.reddit.com###search
